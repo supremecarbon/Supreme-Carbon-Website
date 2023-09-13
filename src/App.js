@@ -4,6 +4,7 @@ import ActivatedCarbon from "./components/ActivatedCarbon/ActivatedCarbon";
 import FieldOfApplication from "./components/FieldOfApplication/FieldOfApplication";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Contact from "./components/Contact/Contact";
+import Home from "./components/Home/Home";
 
 
 function App() {
@@ -13,11 +14,13 @@ function App() {
                 <header className="sticky absolute top-0 left-0 right-0 col-span-12 z-30">
                     <Navbar/>
                 </header>
+                <Home/>
+                <ActivatedCarbon/>
+                <FieldOfApplication/>
+                <AboutUs/>
+                <Contact/>
             </div>
-            <ActivatedCarbon/>
-            <FieldOfApplication/>
-            <AboutUs/>
-            <Contact/>
+
         </div>
 
     );
