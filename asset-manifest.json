@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/www.supremecarbon.in/static/css/main.f28e11d8.css",
+    "main.js": "/www.supremecarbon.in/static/js/main.88ba88df.js",
+    "static/media/airAndGasTreatment.jpg": "/www.supremecarbon.in/static/media/airAndGasTreatment.75855d3151ed530f726b.jpg",
+    "static/media/Steam activated carbon.png": "/www.supremecarbon.in/static/media/Steam activated carbon.5dff476442ac9bda2e56.png",
+    "static/media/pharamaceuticals.jpg": "/www.supremecarbon.in/static/media/pharamaceuticals.5b14cd1b7a6bb3d230f5.jpg",
+    "static/media/petroChemicalCatalyst.jpg": "/www.supremecarbon.in/static/media/petroChemicalCatalyst.ed37fd9035981f391832.jpg",
+    "static/media/goldRecovery.jpg": "/www.supremecarbon.in/static/media/goldRecovery.6c2d941d647e5bc4abfc.jpg",
+    "static/media/SupremeCarbonLogo.png": "/www.supremecarbon.in/static/media/SupremeCarbonLogo.36fe44f84fa2afc6011c.png",
+    "static/media/soilRemediation.jpg": "/www.supremecarbon.in/static/media/soilRemediation.530edba963e0c39f3a0d.jpg",
+    "static/media/flow-process.png": "/www.supremecarbon.in/static/media/flow-process.0de42627aee0d5466c3a.png",
+    "static/media/foodAndBeverage.jpg": "/www.supremecarbon.in/static/media/foodAndBeverage.0deb33083ec39ea83e1a.jpg",
+    "index.html": "/www.supremecarbon.in/index.html",
+    "main.f28e11d8.css.map": "/www.supremecarbon.in/static/css/main.f28e11d8.css.map",
+    "main.88ba88df.js.map": "/www.supremecarbon.in/static/js/main.88ba88df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f28e11d8.css",
+    "static/js/main.88ba88df.js"
+  ]
+}
