@@ -1,5 +1,7 @@
 
 import React from "react";
+import flowProcess from "./flow-process.png"
+import steamActivation from "./Steam activated carbon.png"
 
 function ActivatedCarbon() {
     return (
@@ -8,10 +10,62 @@ function ActivatedCarbon() {
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold lg:text-5xl">Activated Carbon</h2>
                 </div>
-                <div className="mt-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Faucibus vitae aliquet nec ullamcorper sit amet risus. Sit amet facilisis magna etiam tempor orci eu. Mi sit amet mauris commodo quis. Condimentum id venenatis a condimentum. Egestas integer eget aliquet nibh praesent. Elit scelerisque mauris pellentesque pulvinar. Interdum consectetur libero id faucibus nisl. Augue interdum velit euismod in pellentesque massa. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Auctor neque vitae tempus quam. Ut tellus elementum sagittis vitae et leo duis ut. Semper eget duis at tellus at urna. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Viverra orci sagittis eu volutpat. Vitae ultricies leo integer malesuada nunc vel risus. Egestas pretium aenean pharetra magna ac. Tincidunt tortor aliquam nulla facilisi cras.
+                <div className="mt-8 text-center">
+                    Activated  carbon can be made from a wide extend of source materials such as coal, coconut shells and wood. The material is frequently charred to achieve carbon, followed by chemical activation or activation by high temperature steam. This produces an activated carbon with an extensive network of pores and an extremely high surface area. The pores provide sites for the adsorption of chemical contaminants in gases or liquids.
+                    <br/>
+                    Material such as wood, coconut shells or coal that is activated by steam is first carbonised to create charcoal. The carbonisation is performed at a temperature at approximately 550 degC in an oxygen free atmosphere. This process drives off all of the volatile organic compounds and leaves behind the carbon and the minerals (ash).
+                </div>
 
-                    Scelerisque viverra mauris in aliquam sem. Sed libero enim sed faucibus. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Vulputate odio ut enim blandit volutpat. Arcu cursus euismod quis viverra nibh. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Eget egestas purus viverra accumsan in nisl. Nisl tincidunt eget nullam non nisi est. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Facilisis volutpat est velit egestas. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Elementum integer enim neque volutpat ac tincidunt vitae semper. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed euismod nisi porta lorem mollis.
+                <br/>
+
+                <div className="max-w-screen-xl items-center mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
+                    <div className="sm:hidden lg:block lg:max-w-xl">
+                        <img src={steamActivation} alt="Steam Activated Carbon" className="rounded-lg" />
+                    </div>
+                    <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
+                        <div className="max-w-2xl">
+                            <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
+                                Chemical Activated Carbon
+                            </h3>
+                            <p className="text-secondary mt-3 max-w-xl">
+                                Activation of the charcoal can be carried out by the use of chemicals other than steam. Examples of activation atmospheres are nitrogen (N2) and carbon dioxide (CO2) with or without involving strong acids (eg. hydrochloric acid) or bases (potassium hydroxide). Different chemicals create different activated carbon characteristics.
+                            </p>
+                        </div>
+
+                        <div className="divider"></div>
+
+                        <div className="max-w-2xl">
+                            <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
+                                Steam Activated Carbon
+                            </h3>
+                            <p className="text-secondary mt-3 max-w-xl">The steam activation of the charcoal is then carried out an even higher temperature (up to 1000 degC) in a steam atmosphere. The activation reaction between charcoal and steam can be described as follows:
+                                <br/>
+                                C + H2O => CO + H2
+                                <br/>
+                                C + CO2 => 2 CO
+                                <br/>
+                                The activation process can be controlled to produce specific product characteristics. Steam concentrations, temperature, activation time and CO2 concentrations influence pore development, which in turn affect pore size distributions and the level of activity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <br/>
+                <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl">
+                    <figure className="col-span-4 p-4"><img src={flowProcess} alt="Album"/></figure>
+                    <div className="card-body col-span-8">
+                        <h1 className="card-title self-center">Forms of activated Carbon</h1>
+                        <br/>
+                        <h2> Granular Activated Carbon (GAC) </h2>
+                        <p>The activated carbon is milled and sieved to achieve particles in the range of 0.2 to 5 mm. Typically the drinking water industry uses an 8 x 30 mesh (effective size of 0.80-1.0 mm), or a 12 x 40 mesh (effective size of 0.5 - 0.7 mm). GAC is used in both liquid and gas phase applications.</p>
+                        <br/>
+                        <h2> Powdered Activated Carbon (PAC) </h2>
+                        <p>Powdered activated carbon is also milled and sieved and has a smaller particle size than the GAC. The PAC particles are mainly less than 0.18 mm (US Mesh 80) usually with a median diameter of 15 to 30 microns. PACs are generally used in liquid phase applications and for flue gas treatment.</p>
+                        <br/>
+                        <h2> Pelletised/Extruded Activated Carbon  </h2>
+                        <p>The activated carbon has been extruded into cylindrical shaped pellets with diameters ranging from 0.8 to 5 mm. These are mainly used for gas phase applications because of their low pressure drop, high mechanical strength and low dust content.</p>
+
+                    </div>
                 </div>
             </div>
         </section>

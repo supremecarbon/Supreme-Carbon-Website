@@ -2,17 +2,69 @@
 import React from "react";
 
 function Contact() {
+    const handleMapClick = () => {
+        // Open Google Maps with the provided location
+        window.open('https://www.google.com/maps?q=22.538788,70.733383', '_blank');
+    };
+
     return (
-        <section id="contact" className="text-primary bg-base-100">
+        <section id="contact" className="text-base-100  bg-secondary">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold lg:text-5xl">Contact</h2>
                 </div>
-                <div className="mt-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget egestas purus viverra accumsan in nisl. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Faucibus vitae aliquet nec ullamcorper sit amet risus. Sit amet facilisis magna etiam tempor orci eu. Mi sit amet mauris commodo quis. Condimentum id venenatis a condimentum. Egestas integer eget aliquet nibh praesent. Elit scelerisque mauris pellentesque pulvinar. Interdum consectetur libero id faucibus nisl. Augue interdum velit euismod in pellentesque massa. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Auctor neque vitae tempus quam. Ut tellus elementum sagittis vitae et leo duis ut. Semper eget duis at tellus at urna. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Viverra orci sagittis eu volutpat. Vitae ultricies leo integer malesuada nunc vel risus. Egestas pretium aenean pharetra magna ac. Tincidunt tortor aliquam nulla facilisi cras.
+                <footer className="text-base-100 py-8 px-4">
+                    <div className="grid grid-cols-12">
 
-                    Scelerisque viverra mauris in aliquam sem. Sed libero enim sed faucibus. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Vulputate odio ut enim blandit volutpat. Arcu cursus euismod quis viverra nibh. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Eget egestas purus viverra accumsan in nisl. Nisl tincidunt eget nullam non nisi est. Nisi porta lorem mollis aliquam ut porttitor leo a diam. Facilisis volutpat est velit egestas. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Elementum integer enim neque volutpat ac tincidunt vitae semper. Ipsum suspendisse ultrices gravida dictum fusce ut. Sed euismod nisi porta lorem mollis.
-                </div>
+                        <div className="col-span-12 lg:col-span-6">
+                            <div className="mb-6">
+                                <h3 className="text-lg font-bold mb-2">SUPREME CARBON</h3>
+                                <p>Mitana, Tankara 363650</p>
+                                <p>Gujarat (INDIA)</p>
+                                <a href="tel:+916353854737">Ph: (+91) 63538 54737</a>
+                            </div>
+                            <div className="mb-6">
+                                <h3 className="text-lg font-bold mb-2">Phone</h3>
+                                <a href="tel:+916353854737">+(91) 63538 54737 – Harsh Sanja</a>
+                                <br/>
+                                <a href="tel:+919825291830">+(91) 98252 91830 – Bharat Sanja</a>
+                            </div>
+                            <div className="mb-6">
+                                <h3 className="text-lg font-bold mb-2">Email</h3>
+                                <a href = "mailto: supremecarbon1801@gmail.com">supremecarbon1801@gmail.com</a>
+                                <br/>
+                                <a href = "mailto: harshsanja17@gmail.com">harshsanja17@gmail.com</a>
+                            </div>
+
+                        </div>
+
+                        <div className="col-span-12 lg:col-span-6">
+
+                            <div className="md:w-1/3 mb-6">
+                                <h3 className="text-lg font-bold mb-2">Location</h3>
+                                <p className="cursor-pointer underline" onClick={handleMapClick}>
+                                    Survey no. 245, near Deliciano,
+                                    Hamirpar road at Mitana Tankara,
+                                    Morbi 363650 Gujarat (INDIA)
+                                </p>
+                            </div>
+                            <div className="md:w-2/3 mt-4 md:mt-0">
+                                {/* Google Map Section */}
+                                <iframe
+                                    className="w-full h-64 md:h-auto rounded-md"
+                                    title="Google Map"
+                                    src={`https://maps.app.goo.gl/aVH5XTvgzoZ1swdN8`}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                ></iframe>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </footer>
             </div>
         </section>
     )
