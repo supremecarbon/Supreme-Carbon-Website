@@ -104,13 +104,20 @@
 //
 // export default Cover;
 
-import React, { useState } from "react";
+import React,{useEffect, useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import logo from "../Navbar/SupremeCarbonLogo.png";
 import "./Cover.css";
 import cover from "./coverCarbon.jpg";
 import { Link } from "react-scroll";
 
 const Cover = ({ onGetStarted }) => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     const [rotateImage, setRotateImage] = useState(false);
 
     const handleGetStartedClick = () => {

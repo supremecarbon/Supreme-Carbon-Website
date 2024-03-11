@@ -1,4 +1,6 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import cosmetics from "./Cosmetics.jpeg";
 import airGasTreatment from "./airAndGasTreatment.jpg";
 import foodBeverages from "./foodAndBeverage.jpg";
@@ -12,19 +14,25 @@ import alcoholPoisoning from "./alcohol-poisoning.jpg"
 import "./FieldOfApplication.css";
 
 function FieldOfApplication() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <section id="fieldofapplication" className="text-primary bg-base-100">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
 
                 <div className="mx-auto max-w-lg text-center">
-                    <h2 className="text-3xl font-bold lg:text-5xl">
+                    <h2 className="text-3xl font-bold lg:text-5xl" data-aos="zoom-in-up" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         Field of Application
                     </h2>
                 </div>
 
                 <br />
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-left" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={airGasTreatment}
                         alt="Air and Gas Treatment" className="object-cover w-full h-full" /></figure>
@@ -47,8 +55,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-right" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={pharmaceuticals}
                         alt="Pharmaceuticals" className="object-cover w-full h-full" /></figure>
@@ -73,7 +80,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-left" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={goldRecovery}
                         alt="Gold Recovery" className="object-cover w-full h-full" /></figure>
@@ -97,7 +104,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-right" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={mercuryRemoval}
                         alt="Mercury Removal" className="object-cover w-full h-full" /></figure>
@@ -124,8 +131,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-left" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={foodBeverages}
                         alt="Food and Beverages" className="object-cover w-full h-full" /></figure>
@@ -146,7 +152,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-right" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={soilRemediation}
                         alt="Soil Remediation" className="object-cover w-full h-full" /></figure>
@@ -168,7 +174,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div  data-aos="flip-left" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={petroChemicalCatalyst}
                         alt="Petrochemical Catalyst" className="object-cover w-full h-full" /></figure>
@@ -189,7 +195,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-right" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={cosmetics}
                         alt="Cosmetics" className="object-cover w-full h-full" /></figure>
@@ -208,7 +214,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-left" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={food}
                         alt="food" className="object-cover w-full h-full" /></figure>
@@ -228,7 +234,7 @@ function FieldOfApplication() {
                     </div>
                 </div>
 
-                <div className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
+                <div data-aos="flip-right" data-aos-duration="1000" className="card lg:card-side m-5 border-2 border-gray-500 hover:border-white hover:shadow-gray-700 hover:shadow-lg bg-base-100 shadow-xl ">
                     <figure className="relative lg:w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0"><img
                         src={alcoholPoisoning}
                         alt="Alcohol Poisoning" className="object-cover w-full h-full" /></figure>

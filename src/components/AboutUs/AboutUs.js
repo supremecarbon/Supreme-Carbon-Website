@@ -1,16 +1,25 @@
 
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import logo from "../Navbar/SupremeCarbonLogo.png";
 
 function AboutUs() {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <section id="aboutus" className="text-primary bg-base-100">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 grid grid-cols-12">
                 <div className="mx-auto mb-12 max-w-lg text-center col-span-12">
-                    <h2 className="text-3xl font-bold lg:text-5xl">About Us</h2>
+                    <h2 className="text-3xl font-bold lg:text-5xl" data-aos="zoom-in-up"  data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">About Us</h2>
                 </div>
 
-                <div className="col-span-12 lg:col-span-5">
+                <div className="col-span-12 lg:col-span-5" data-aos="fade-right" data-aos-offset="300"
+                     data-aos-easing="ease-in-sine">
                     <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                         WELCOME TO SUPREME CARBON
                     </h3>
@@ -25,7 +34,8 @@ function AboutUs() {
                 </div>
                 <div className="col-span-12 lg:col-span-2"></div>
                 <br className="lg:hidden"/>
-                <div className="col-span-12 lg:col-span-5">
+                <div className="col-span-12 lg:col-span-5" data-aos="fade-left" data-aos-offset="300"
+                     data-aos-easing="ease-in-sine">
                     <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                         WHY TO CHOOSE SUPREME CARBON ?
                     </h3>

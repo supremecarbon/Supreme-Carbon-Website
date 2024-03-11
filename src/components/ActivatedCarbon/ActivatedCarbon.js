@@ -1,17 +1,24 @@
 
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import flowProcess from "./flow-process.jpg"
 import steamActivation from "./Steam activated carbon.png"
 import airGasTreatment from "../FieldOfApplication/airAndGasTreatment.jpg";
 
 function ActivatedCarbon() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <section id="activatedcarbon" className="text-primary bg-base-100">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="mx-auto max-w-lg text-center">
-                    <h2 className="text-3xl font-bold lg:text-5xl">Activated Carbon</h2>
+                    <h2 className="text-3xl font-bold lg:text-5xl" data-aos="zoom-in-up" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">Activated Carbon</h2>
                 </div>
-                <div className="mt-8 text-center">
+                <div className="mt-8 text-center" data-aos="zoom-in-down">
                     Activated  carbon can be made from a wide extend of source materials such as coal, coconut shells and wood. The material is frequently charred to achieve carbon, followed by chemical activation or activation by high temperature steam. This produces an activated carbon with an extensive network of pores and an extremely high surface area. The pores provide sites for the adsorption of chemical contaminants in gases or liquids.
                     <br/>
                     Material such as wood, coconut shells or coal that is activated by steam is first carbonised to create charcoal. The carbonisation is performed at a temperature at approximately 550 degC in an oxygen free atmosphere. This process drives off all of the volatile organic compounds and leaves behind the carbon and the minerals (ash).
@@ -23,22 +30,22 @@ function ActivatedCarbon() {
 
 
                 <div className="max-w-screen-xl items-center mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
-                    <div className="sm:hidden lg:block lg:max-w-xl">
+                    <div className="sm:hidden lg:block lg:max-w-xl" data-aos="fade-right">
                         <img src={steamActivation} alt="Steam Activated Carbon" className="rounded-lg" />
                     </div>
-                    <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
+                    <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block" data-aos="zoom-out-left">
                         <div className="max-w-2xl">
                             <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                                 Chemical Activated Carbon
                             </h3>
-                            <p className="text-secondary mt-3 max-w-xl">
+                            <p className="text-secondary mt-3 max-w-xl" >
                                 Activation of the charcoal can be carried out by the use of chemicals other than steam. Examples of activation atmospheres are nitrogen (N2) and carbon dioxide (CO2) with or without involving strong acids (eg. hydrochloric acid) or bases (potassium hydroxide). Different chemicals create different activated carbon characteristics.
                             </p>
                         </div>
 
                         <div className="divider"></div>
 
-                        <div className="max-w-2xl">
+                        <div className="max-w-2xl" data-aos="zoom-out-left">
                             <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                                 Steam Activated Carbon
                             </h3>
@@ -57,7 +64,7 @@ function ActivatedCarbon() {
                 <br/>
 
 
-                <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl">
+                <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl" data-aos="flip-up">
                     <figure className="col-span-12 lg:col-span-4  p-4"><img src={flowProcess} alt="Album"/></figure>
                     <div className="card-body col-span-12 lg:col-span-8">
                         <h1 className="card-title self-center">Forms of activated Carbon</h1>
