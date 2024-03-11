@@ -58,8 +58,8 @@ function ActivatedCarbon() {
 
 
                 <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl">
-                    <figure className="col-span-4 p-4"><img src={flowProcess} alt="Album"/></figure>
-                    <div className="card-body col-span-8">
+                    <figure className="col-span-12 lg:col-span-4  p-4"><img src={flowProcess} alt="Album"/></figure>
+                    <div className="card-body col-span-12 lg:col-span-8">
                         <h1 className="card-title self-center">Forms of activated Carbon</h1>
                         <br/>
                         <h2 className="font-bold"> Granular Activated Carbon (GAC) </h2>

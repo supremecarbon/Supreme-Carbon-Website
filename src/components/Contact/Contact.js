@@ -38,7 +38,7 @@ function Contact() {
 
                         </div>
 
-                        <div className="col-span-12 lg:col-span-6">
+                        <div className="col-span-12 lg:col-span-6" data-aos="flip-right">
 
                             <div className="md:w-1/3 mb-6">
                                 <h3 className="text-lg font-bold mb-2">Location</h3>
@@ -50,13 +50,23 @@ function Contact() {
                             </div>
                             <div className="md:w-2/3 mt-4 md:mt-0">
                                 {/* Google Map Section */}
+                                {/*<iframe*/}
+                                {/*    className="w-full h-64 md:h-auto rounded-md"*/}
+                                {/*    title="Google Map"*/}
+                                {/*    src={`https://maps.app.goo.gl/aVH5XTvgzoZ1swdN8`}*/}
+                                {/*    allowFullScreen=""*/}
+                                {/*    loading="lazy"*/}
+                                {/*></iframe>*/}
+
                                 <iframe
-                                    className="w-full h-64 md:h-auto rounded-md"
+                                    className="w-full h-64 md:h-auto rounded-md "
+
                                     title="Google Map"
-                                    src={`https://maps.app.goo.gl/aVH5XTvgzoZ1swdN8`}
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7369.270178195539!2d70.74561075000001!3d22.5553384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c1c38874113f%3A0x533536c3698202f9!2sMitana%2C%20Gujarat%20363650%2C%20India!5e0!3m2!1sen!2sus!4v1710172214019!5m2!1sen!2sus"
                                     allowFullScreen=""
                                     loading="lazy"
-                                ></iframe>
+                                    referrerPolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
 
                         </div>
