@@ -1,9 +1,0 @@
-.navbar {
-    /* your existing styles */
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.navbar.visible {
-    opacity: 1;
-}
