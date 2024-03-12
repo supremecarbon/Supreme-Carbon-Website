@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b65258c.css",
-    "main.js": "/static/js/main.13666359.js",
+    "main.css": "/static/css/main.8a022c52.css",
+    "main.js": "/static/js/main.cb494099.js",
     "static/media/coverCarbon.jpg": "/static/media/coverCarbon.0903379c5ac1e6f1e5e2.jpg",
     "static/media/airAndGasTreatment.jpg": "/static/media/airAndGasTreatment.75855d3151ed530f726b.jpg",
     "static/media/Steam activated carbon.png": "/static/media/Steam activated carbon.5dff476442ac9bda2e56.png",
@@ -15,11 +15,11 @@
     "static/media/flow-process.jpg": "/static/media/flow-process.57f60057fdf28065bccd.jpg",
     "static/media/foodAndBeverage.jpg": "/static/media/foodAndBeverage.0deb33083ec39ea83e1a.jpg",
     "index.html": "/index.html",
-    "main.2b65258c.css.map": "/static/css/main.2b65258c.css.map",
-    "main.13666359.js.map": "/static/js/main.13666359.js.map"
+    "main.8a022c52.css.map": "/static/css/main.8a022c52.css.map",
+    "main.cb494099.js.map": "/static/js/main.cb494099.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b65258c.css",
-    "static/js/main.13666359.js"
+    "static/css/main.8a022c52.css",
+    "static/js/main.cb494099.js"
   ]
 }
