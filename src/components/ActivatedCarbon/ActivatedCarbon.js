@@ -40,7 +40,7 @@ function ActivatedCarbon() {
                             <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                                 Chemical Activated Carbon
                             </h3>
-                            <p className="text-secondary mt-3 max-w-xl" >
+                            <p className="text-primary mt-3 max-w-xl" >
                                 Activation of the charcoal can be carried out by the use of chemicals other than steam. Examples of activation atmospheres are nitrogen (N2) and carbon dioxide (CO2) with or without involving strong acids (eg. hydrochloric acid) or bases (potassium hydroxide). Different chemicals create different activated carbon characteristics.
                             </p>
                         </div>
@@ -51,7 +51,7 @@ function ActivatedCarbon() {
                             <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                                 Steam Activated Carbon
                             </h3>
-                            <p className="text-secondary mt-3 max-w-xl">The steam activation of the charcoal is then carried out an even higher temperature (up to 1000 degC) in a steam atmosphere. The activation reaction between charcoal and steam can be described as follows:
+                            <p className="text-primary mt-3 max-w-xl">The steam activation of the charcoal is then carried out an even higher temperature (up to 1000 degC) in a steam atmosphere. The activation reaction between charcoal and steam can be described as follows:
                                 <br/>
                                 C + H2O => CO + H2
                                 <br/>
@@ -71,7 +71,7 @@ function ActivatedCarbon() {
 
                 <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl" data-aos="flip-up">
                     <figure className="col-span-12 lg:col-span-4 p-4"><img className="rounded-xl" src={flowProcess} alt="Album"/></figure>
-                    <div className="card-body col-span-12 lg:col-span-8">
+                    <div className="card-body col-span-12 lg:col-span-8 ">
                         <h3 className="card-title self-center text-primary text-3xl font-semibold sm:text-4xl">
                             Forms of activated Carbon
                         </h3>
