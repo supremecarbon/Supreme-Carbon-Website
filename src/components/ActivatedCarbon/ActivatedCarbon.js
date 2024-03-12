@@ -26,7 +26,9 @@ function ActivatedCarbon() {
 
                 <br/>
 
+                <div className="divider"></div>
 
+                <br/>
 
 
                 <div className="max-w-screen-xl items-center mx-auto px-4 text-gray-600 gap-x-12 items-start justify-between lg:flex md:px-8">
@@ -63,11 +65,16 @@ function ActivatedCarbon() {
 
                 <br/>
 
+                <div className="divider"></div>
+
+                <br/>
 
                 <div className="card grid grid-cols-12 lg:card-side bg-base-100 shadow-xl" data-aos="flip-up">
-                    <figure className="col-span-12 lg:col-span-4  p-4"><img src={flowProcess} alt="Album"/></figure>
+                    <figure className="col-span-12 lg:col-span-4 p-4"><img className="rounded-xl" src={flowProcess} alt="Album"/></figure>
                     <div className="card-body col-span-12 lg:col-span-8">
-                        <h1 className="card-title self-center">Forms of activated Carbon</h1>
+                        <h3 className="card-title self-center text-primary text-3xl font-semibold sm:text-4xl">
+                            Forms of activated Carbon
+                        </h3>
                         <br/>
                         <h2 className="font-bold"> Granular Activated Carbon (GAC) </h2>
                         <p>The activated carbon is milled and sieved to achieve particles in the range of 0.2 to 5 mm. Typically the drinking water industry uses an 8 x 30 mesh (effective size of 0.80-1.0 mm), or a 12 x 40 mesh (effective size of 0.5 - 0.7 mm). GAC is used in both liquid and gas phase applications.</p>
@@ -79,6 +86,7 @@ function ActivatedCarbon() {
                         <p>The activated carbon has been extruded into cylindrical shaped pellets with diameters ranging from 0.8 to 5 mm. These are mainly used for gas phase applications because of their low pressure drop, high mechanical strength and low dust content.</p>
 
                     </div>
+
                 </div>
             </div>
         </section>
