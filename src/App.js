@@ -6,7 +6,9 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Cover from "./components/Cover/Cover";
+import Export from "./components/Export/Export";
 import {useEffect, useState, useRef} from "react";
+
 
 
 function App() {
@@ -54,6 +56,7 @@ function App() {
                             <ActivatedCarbon />
                             <FieldOfApplication />
                             <AboutUs />
+                            <Export/>
                             <Contact />
                         </>
                     )}
