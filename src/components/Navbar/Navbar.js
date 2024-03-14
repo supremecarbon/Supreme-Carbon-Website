@@ -14,6 +14,8 @@ function Navbar() {
                         <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="activatedcarbon" spy={true} smooth={true} offset={-70} duration={500}>Activated Carbon</Link></a></li>
                         <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="fieldofapplication" spy={true} smooth={true} offset={-70} duration={500}>Field Of Application</Link></a></li>
                         <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="aboutus" spy={true} smooth={true} offset={-70} duration={500}>About Us</Link></a></li>
+                        <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="export" spy={true} smooth={true} offset={-70} duration={500}>Export</Link></a></li>
+                        <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="packaging" spy={true} smooth={true} offset={-70} duration={500}>Packaging Details</Link></a></li>
                         <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link></a></li>
                     </ul>
                 </div>
@@ -22,7 +24,6 @@ function Navbar() {
                         {/*<li><img src={logo} alt="Supreme Carbon" className="hover:animate-spin h-14"></img></li>*/}
                         <li><a className="normal-case text-2xl font-bold"><img src={logo} alt="Supreme Carbon" className="hover:animate-spin h-14"></img><Link to="home" spy={true} smooth={true} offset={-70} duration={500}>Supreme Carbon</Link></a></li>
                     </ul>
-
                     {/*<img src={logo} alt="Supreme Carbon" className="hover:animate-spin h-12"></ims*/}
                 </div>
 
@@ -52,6 +53,8 @@ function Navbar() {
                     <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="activatedcarbon" spy={true} smooth={true} offset={-70} duration={500}>Activated Carbon</Link></a></li>
                     <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="fieldofapplication" spy={true} smooth={true} offset={-70} duration={500}>Field Of Application</Link></a></li>
                     <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="aboutus" spy={true} smooth={true} offset={-70} duration={500}>About Us</Link></a></li>
+                    <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="export" spy={true} smooth={true} offset={-70} duration={500}>Export</Link></a></li>
+                    <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="packaging" spy={true} smooth={true} offset={-70} duration={500}>Packaging Details</Link></a></li>
                     <li><a className="text-primary hover:text-white"><Link activeClass="text-secondary" to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contact</Link></a></li>
                 </ul>
             </div>

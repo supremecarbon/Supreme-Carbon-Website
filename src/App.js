@@ -21,9 +21,33 @@ function App() {
         setShowComponents(true);
     };
 
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         if (!coverRef.current) return; // Add this guard clause
+    //
+    //         const coverHeight = coverRef.current.offsetHeight;
+    //         const scrollPosition = window.scrollY;
+    //
+    //         if (scrollPosition >= coverHeight) {
+    //             setShowNavbar(true);
+    //         } else {
+    //             setShowNavbar(false);
+    //         }
+    //     };
+    //
+    //     window.addEventListener('scroll', handleScroll);
+    //
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
+
     useEffect(() => {
         const handleScroll = () => {
-            if (!coverRef.current) return; // Add this guard clause
+            if (!coverRef.current) {
+                setShowNavbar(true); // Show Navbar by default if cover component is not present
+                return;
+            }
 
             const coverHeight = coverRef.current.offsetHeight;
             const scrollPosition = window.scrollY;
@@ -37,6 +61,7 @@ function App() {
 
         window.addEventListener('scroll', handleScroll);
 
+        // Clean up the event listener
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };

@@ -12,7 +12,7 @@ function Packaging() {
     }, [])
 
     return (
-        <section id="Packaging" className="text-primary bg-base-100">
+        <section id="packaging" className="text-primary bg-base-100">
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="mx-auto max-w-lg text-center">
                     <h2 className="text-3xl font-bold lg:text-5xl" data-aos="zoom-in-up" data-aos-offset="300"
@@ -28,13 +28,13 @@ function Packaging() {
                 <br/>
 
                 <div className="grid grid-cols-12 justify-items-center">
-                    <div className="col-span-4">
+                    <div className="col-span-12 lg:col-span-4" data-aos="fade-right">
                         <img className="rounded-xl" src={pack1} alt="pack1" />
                     </div>
-                    <div className="col-span-4">
+                    <div className="col-span-12 lg:col-span-4" data-aos="fade-down">
                         <img className="rounded-xl" src={pack2} alt="pack2" />
                     </div>
-                    <div className="col-span-4">
+                    <div className="col-span-12 lg:col-span-4" data-aos="fade-right">
                         <img className="rounded-xl" src={pack3} alt="pack3" />
                     </div>
 

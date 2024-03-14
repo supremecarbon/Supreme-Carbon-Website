@@ -214,7 +214,7 @@ function Export() {
                 <br/>
                 <br/>
                 <div className="grid grid-cols-12">
-                    <div className="col-span-4 self-center">
+                    <div className="col-span-12 lg:col-span-4 self-center" data-aos="fade-right">
                         <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                             We Are Reachable Anywhere in the World
                         </h3>
@@ -236,7 +236,7 @@ function Export() {
                         </div>
 
                     </div>
-                    <div className="col-span-8" id="hs-users-datamap" style={{ width: '100%', height: '500px' }}></div> {/* Map container */}
+                    <div data-aos="fade-left" className="col-span-12 lg:col-span-8" id="hs-users-datamap" style={{ width: '100%', height: '500px' }}></div> {/* Map container */}
                 </div>
             </div>
         </section>
