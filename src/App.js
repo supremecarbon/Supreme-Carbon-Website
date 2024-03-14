@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Cover from "./components/Cover/Cover";
 import Export from "./components/Export/Export";
 import {useEffect, useState, useRef} from "react";
+import Packaging from "./components/Packaging/Packaging";
 
 
 
@@ -57,6 +58,7 @@ function App() {
                             <FieldOfApplication />
                             <AboutUs />
                             <Export/>
+                            <Packaging/>
                             <Contact />
                         </>
                     )}
