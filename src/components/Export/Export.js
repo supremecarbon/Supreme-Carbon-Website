@@ -223,15 +223,14 @@ function Export() {
                         </p>
                         <br/>
                         <div className="grid grid-cols-12">
-                            <span className="fi fi-in col-span-2 m-2"></span>
-                            <span className="fi fi-us col-span-2 m-2"></span>
-                            <span className="fi fi-cn col-span-2 m-2"></span>
-                            <span className="fi fi-ca col-span-2 m-2"></span>
-                            <span className="fi fi-kr col-span-2 m-2"></span>
-                            <span className="fi fi-de col-span-2 m-2"></span>
-                            <span className="fi fi-tr col-span-2 m-2"></span>
-                            <span className="fi fi-lk col-span-2 m-2"></span>
-                            <span className="fi fi-be col-span-2 m-2"></span>
+                            <span className="fi fi-us col-span-3 m-2"></span>
+                            <span className="fi fi-cn col-span-3 m-2"></span>
+                            <span className="fi fi-ca col-span-3 m-2"></span>
+                            <span className="fi fi-kr col-span-3 m-2"></span>
+                            <span className="fi fi-de col-span-3 m-2"></span>
+                            <span className="fi fi-tr col-span-3 m-2"></span>
+                            <span className="fi fi-lk col-span-3 m-2"></span>
+                            <span className="fi fi-be col-span-3 m-2"></span>
 
                         </div>
 

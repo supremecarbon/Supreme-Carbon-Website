@@ -148,7 +148,7 @@ const Cover = ({ onGetStarted }) => {
                     <p className="text-white  col-span-12 text-6xl font-bold text-center self-center">
                         SUPREME CARBON
                     </p>
-                    <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">Carbon - The Backbone of Life!</p>
+                    <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">Powering Tomorrow with Pure Carbon.</p>
                     <div className="mt-8 flex flex-wrap justify-center gap-4">
                         <button
                             className="block w-full rounded border border-primary bg-neutral px-12 py-3 text-sm font-medium text-white hover:bg-white hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
