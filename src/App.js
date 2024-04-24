@@ -9,6 +9,7 @@ import Cover from "./components/Cover/Cover";
 import Export from "./components/Export/Export";
 import {useEffect, useState, useRef} from "react";
 import Packaging from "./components/Packaging/Packaging";
+import Tag from "./components/Tag/Tag";
 
 
 
@@ -84,6 +85,7 @@ function App() {
                             <AboutUs />
                             <Export/>
                             <Packaging/>
+                            <Tag/>
                             <Contact />
                         </>
                     )}
