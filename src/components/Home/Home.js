@@ -37,7 +37,7 @@ function Home() {
                     grades of coconut, wood, and coal.
                 </div>
 
-                <div className="m-4 mt-8  col-span-4 text-center" data-aos="zoom-out-left">
+                <div className="m-4 mt-8  col-span-12 lg:col-span-4 text-center" data-aos="zoom-out-left">
                     <div className="max-w-2xl">
                         <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                             Setting the Standard for Activated Carbon Excellence
@@ -53,7 +53,7 @@ function Home() {
 
 
                 </div>
-                <div className="m-4 mt-8  col-span-4 text-center" data-aos="zoom-out-right">
+                <div className="m-4 mt-8  col-span-12 lg:col-span-4 text-center" data-aos="zoom-out-right">
                     <div className="max-w-2xl" data-aos="zoom-out-left">
                         <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                             Driving Innovation in Carbon Activation
@@ -68,7 +68,7 @@ function Home() {
 
 
                 </div>
-                <div className="m-4 mt-8  col-span-4 text-center" data-aos="zoom-out-right">
+                <div className="m-4 mt-8  col-span-12 lg:col-span-4 text-center" data-aos="zoom-out-right">
                     <div className="max-w-2xl">
                         <h3 className="text-primary text-3xl font-semibold sm:text-4xl">
                             Empowering Industries with Tailored Solutions
