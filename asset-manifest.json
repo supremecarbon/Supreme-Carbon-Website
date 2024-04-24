@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d0b31bf.css",
-    "main.js": "/static/js/main.0a602a39.js",
+    "main.css": "/static/css/main.bd73a96b.css",
+    "main.js": "/static/js/main.03f1c58c.js",
     "static/media/coverCarbon.jpg": "/static/media/coverCarbon.0903379c5ac1e6f1e5e2.jpg",
     "static/media/airAndGasTreatment.jpg": "/static/media/airAndGasTreatment.75855d3151ed530f726b.jpg",
     "static/media/Steam activated carbon.png": "/static/media/Steam activated carbon.5dff476442ac9bda2e56.png",
@@ -288,11 +288,11 @@
     "static/media/bd.svg": "/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/pe.svg": "/static/media/pe.d64e9732fcaa8f765994.svg",
     "static/media/id.svg": "/static/media/id.f624e2c8444a7794b357.svg",
-    "main.1d0b31bf.css.map": "/static/css/main.1d0b31bf.css.map",
-    "main.0a602a39.js.map": "/static/js/main.0a602a39.js.map"
+    "main.bd73a96b.css.map": "/static/css/main.bd73a96b.css.map",
+    "main.03f1c58c.js.map": "/static/js/main.03f1c58c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0b31bf.css",
-    "static/js/main.0a602a39.js"
+    "static/css/main.bd73a96b.css",
+    "static/js/main.03f1c58c.js"
   ]
 }
