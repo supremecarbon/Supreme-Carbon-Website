@@ -34,15 +34,15 @@ function Contact() {
                                  data-aos-anchor-placement="center-bottom">
                                 <h3 className="text-lg font-bold mb-2">Phone</h3>
                                 <a href="tel:+916353854737">+(91) 63538 54737 – Harsh Sanja</a>
-                                <br/>
-                                <a href="tel:+919825291830">+(91) 98252 91830 – Bharat Sanja</a>
+                                {/*<br/>*/}
+                                {/*<a href="tel:+919825291830">+(91) 98252 91830 – Bharat Sanja</a>*/}
                             </div>
                             <div className="mb-6" data-aos="fade-right"
                                  data-aos-anchor-placement="top-bottom">
                                 <h3 className="text-lg font-bold mb-2">Email</h3>
-                                <a href = "mailto: supremecarbon1801@gmail.com">supremecarbon1801@gmail.com</a>
-                                <br/>
-                                <a href = "mailto: harshsanja17@gmail.com">harshsanja17@gmail.com</a>
+                                <a href = "mailto: admin@supremecarbon.in">admin@supremecarbon.in</a>
+                                {/*<br/>*/}
+                                {/*<a href = "mailto: harshsanja17@gmail.com">harshsanja17@gmail.com</a>*/}
                             </div>
 
                         </div>
