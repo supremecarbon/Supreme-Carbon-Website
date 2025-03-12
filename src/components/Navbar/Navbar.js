@@ -1,6 +1,7 @@
 import {Link} from 'react-scroll'
 import React from "react";
 import logo from "./SupremeCarbonLogo.png"
+import "./Navbar.css"
 
 function Navbar() {
     return (
